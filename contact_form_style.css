@@ -1,0 +1,21 @@
+#message {
+ width: 85%;    
+ height: 200px;
+}
+section.contactez_nous {
+  margin:30px auto;
+  width: 75%;
+  border: 2px solid #FF6B2C;
+  border-radius: 2%;
+  padding: 30px;
+}
+h1 {
+    text-align: center;
+}
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #F7F8FA;
+}

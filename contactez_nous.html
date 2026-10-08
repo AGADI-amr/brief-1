@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css"> 
   <link rel="stylesheet" href="contact_form_style.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="en-tete">
@@ -30,23 +30,57 @@
 </header>
 
 <main>
-    <div class="contactez_nous">
+    <section class="contactez_nous"> 
+        <h1>Contactez Nous</h1>
         <form action="">
+            
+        <label for="fname" style="font-style: italic;">Prénom</label>
+        <div class="prenom">
+            <input type="text" id="fname" name="Prénom" placeholder="Votre Prénom..">
+        </div>
 
-        <label for="fname">Prénom</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" style="font-style: italic;">Nom</label>
+        <div>
+            <input type="text" id="lname" name="Nom" placeholder="Votre Nom..">
+        </div>
 
-        <label for="lname">Nom</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
-
-        <input type="submit" value="Submit">
+        <label for="message" style="font-style: italic;">Message</label>
+        <div class="message">
+            <textarea id="message" name="message" placeholder="Ecrivez un message.." ></textarea>
+        </div>
+        
+        <input type="submit" value="Soumettre">
 
         </form>
-    </div>
+    </section>
 </main>
+
+  <footer class="pied-de-page">
+    <div class="conteneur">
+
+      <div class="pied-haut">
+        <div>
+          <p class="logo logo-clair">Élan Fitness</p>
+          <p class="slogan">Ton énergie, ton rythme.</p>
+        </div>
+
+        <nav aria-label="Navigation du pied de page">
+          <ul class="menu menu-pied">
+          <li><a href="accueil.html" >Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li><a href="#cotactez_nous">Contactez nous</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="pied-bas">
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+        <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+      </div>
+
+    </div>
+</footer>
 
 </body>
 </html>
