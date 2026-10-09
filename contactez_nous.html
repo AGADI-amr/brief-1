@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="contact_form_style.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact_form_style.css">
 </head>
 <body>
   <header class="en-tete">
@@ -23,30 +23,69 @@
           <li><a href="accueil.html" >Accueil</a></li>
           <li><a href="about.html">À propos</a></li>
           <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="#cotactez_nous" class="lien-actif">Contactez nous</a></li>
+          <li><a href="#cotactez_nous" class="lien-actif">Contactez Nous</a></li>
         </ul>
       </nav>
     </div>
 </header>
 
 <main>
-    <div class="contactez_nous">
+    <section id="contactez_nous">
+      <h1>Contactez Nous</h1>
         <form action="">
-
         <label for="fname">Prénom</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div>
+        <input type="text" id="fname" name="Prénom" placeholder="Votre Prénom.." required>
+        <div/>
 
         <label for="lname">Nom</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+        <div>
+        <input type="text" id="lname" name="Nom" placeholder="Votre Nom.." required>
+        <div/>
+        <label for="email">Email</label>
+        <div>
+          <input type="email" id="email" name="Email" placeholder="Votre Adresse e-mail.." required>
+        <div/>
         <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
+        <div>
+        <textarea id="message" name="message" placeholder="Ecrivez un message.." required></textarea>
+        <div/>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Soumettre">
 
         </form>
-    </div>
+    </section>
+    <section class="centered"> 
+      <p><strong>GSM:</strong> +212 522-498712</p>
+      <p><strong>Email:</strong> contact@elanfitness.ma</p> 
+    </section>
 </main>
+ <footer class="pied-de-page">
+    <div class="conteneur">
+
+      <div class="pied-haut">
+        <div>
+          <p class="logo logo-clair">Élan Fitness</p>
+          <p class="slogan">Ton énergie, ton rythme.</p>
+        </div>
+
+        <nav aria-label="Navigation du pied de page">
+          <ul class="menu menu-pied">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="#contactez_nous">Contactez Nous</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="pied-bas">
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+        <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>

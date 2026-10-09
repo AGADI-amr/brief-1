@@ -1,0 +1,68 @@
+body {
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #F7F8FA;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom : 30px; 
+}
+section#contactez_nous {
+    margin : 30px auto ;
+    border-top : 18px solid #FF6B2C ;
+    border-bottom : 18px solid #FF6B2C ;
+    border-left : 10px solid #FF6B2C ;
+    border-right : 10px solid #FF6B2C ;
+    border-radius: 25px;
+    width: 85vw;
+    height: 725px;
+    padding : 40px;
+
+}
+
+#message {
+    height: 25vh;
+    width: 40vw;
+    font-family: inherit;
+    font-size: 18px;
+    border : 3px groove #1F2937 ;
+    border-radius: 6px;
+
+}
+
+label {
+   font-style: italic;
+   font-family: 'sans-serif';
+   font-weight: bold;
+   font-size: 20px;
+}
+
+
+[type="text"] , [type="email"] {
+    border : 3px groove #1F2937 ;
+    border-radius: 6px;
+    padding : 6px;
+    width : 350px;
+    margin-top : 6px;
+    margin-bottom : 10px;
+    font-size : 18px ;
+    font-family : inherit; 
+}
+[type="submit"] {
+    border : 4px groove #1F2937 ;
+    background-color: #FF6B2C;
+    border-radius: 6px;
+    padding : 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color :#1F2937;
+    margin-top : 30px;
+}
+
+section.centered {
+margin-left : 40vw;
+margin-bottom : 30px;
+}
